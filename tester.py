@@ -6,5 +6,5 @@ def testlocalfunction(number):
 
 def testlocalfunction2(dim, number):
     V = np.ones(dim)
-    result = V * testlocalfunction(2)
+    result = V * testlocalfunction(number) * 40
     return result
